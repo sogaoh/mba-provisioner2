@@ -4,6 +4,8 @@ help:
 	cat Makefile
 
 
+dot:
+	ansible-playbook playbooks/dotfiles.yml -i "localhost," --tags=dotfiles -K
 prezto:
 	ansible-playbook playbooks/prezto.yml -i "localhost," --tags=prezto -K
 ma:

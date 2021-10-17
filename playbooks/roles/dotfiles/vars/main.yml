@@ -1,0 +1,11 @@
+---
+dotfiles_name:
+  - .zlogin
+  - .zlogout
+  - .zpreztorc
+  - .zprofile
+  - .zshenv
+  - .zshrc
+  - .vimrc
+  - .my.cnf
+  - .psqlrc
