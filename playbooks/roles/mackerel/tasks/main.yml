@@ -22,7 +22,7 @@
   with_items: "{{ brew_result.results | selectattr('changed') | map(attribute='item') | map(attribute='name') | list }}"
 
 - name: Initialize mackerel-agent (Set API key)
-  shell: mackerel-agent init -apikey={{ mackerel_agent_apikey }} -conf $HOME/Library/mackerel-agent/mackerel-agent.conf
+  shell: mackerel-agent init -apikey={{ mackerel_agent_apikey }} -conf /opt/homebrew/etc/mackerel-agent.conf
   ignore_errors: yes
 
 - name: Copy mac_battery.sh to  /opt/homebrew/var/mackerel-agent/ directory
@@ -35,7 +35,7 @@
 
 - name: Append to mackerel-agent.conf
   blockinfile:
-    dest: $HOME/Library/mackerel-agent/mackerel-agent.conf
+    dest: /opt/homebrew/etc/mackerel-agent.conf
     backup: yes
     block: |
       {{ item.content }}
