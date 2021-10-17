@@ -1,0 +1,19 @@
+#!/bin/bash
+
+# refs:
+# - https://www.sandalot.com/mac%E3%81%AE%E3%83%90%E3%83%83%E3%83%86%E3%83%AA%E3%83%BC%E7%8A%B6%E6%85%8B%E3%82%92%E5%AE%9A%E6%9C%9F%E7%9A%84%E3%81%AB%E5%8F%96%E5%BE%97%E3%81%99%E3%82%8B%E6%96%B9%E6%B3%95/
+# - https://qiita.com/sand_bash/items/3d746c7e292908c6167e
+
+SECONDS=`date '+%s'`
+
+NAME='battery.remain'
+
+# for Intel Mac
+#MAXCAP=`ioreg -l | grep MaxCapacity | grep -v Apple | awk '{print $NF}'`
+#CURCAP=`ioreg -l | grep CurrentCapacity | grep -v Apple | awk '{print $NF}'`
+#VALUE=`echo "scale=2; 100 * ${CURCAP} / ${MAXCAP}" | bc`
+#echo -e "${NAME}\t${VALUE}\t${SECONDS}"
+
+# for M1 Mac
+CURCAP=`ioreg -l | grep CurrentCapacity | grep -v Apple | awk '{print $NF}'`
+echo -e "${NAME}\t${CURCAP}\t${SECONDS}"
