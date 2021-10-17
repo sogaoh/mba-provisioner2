@@ -1,4 +1,4 @@
-require 'brewfiles/m1_utils.rb'
+require './brewfiles/m1_utils.rb'
 
 brew "zsh-completion"
 brew "tmux"
