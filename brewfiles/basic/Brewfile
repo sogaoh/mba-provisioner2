@@ -1,0 +1,12 @@
+require '../m1_utils.rb'
+
+brew "zsh-completion"
+brew "tmux"
+brew "rsync"
+brew "git"
+brew "wget"
+brew "curl"
+brew "tree"
+brew "nkf"
+brew "jq"
+brew "pigz"
