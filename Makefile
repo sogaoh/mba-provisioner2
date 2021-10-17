@@ -5,8 +5,7 @@ help:
 
 
 basic:
-	cd brewfiles/basic
-	brew bundle
+	brew bundle install --file=brewfiles/basic/Brewfiles
 
 dot:
 	ansible-playbook playbooks/dotfiles.yml -i "localhost," --tags=dotfiles -K
