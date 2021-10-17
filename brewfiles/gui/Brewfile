@@ -18,7 +18,6 @@ cask "gimp"
 #cask "eset-cyber-security-pro"  # Unsupported..
 cask "bitwarden"
 cask "adobe-acrobat-reader"
-cask_skip_m1 "google-cloud-sdk"
 cask "skitch"
 cask "amazon-workspaces"
 cask "microsoft-edge"
