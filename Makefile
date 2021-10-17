@@ -4,6 +4,8 @@ help:
 	cat Makefile
 
 
+ext:
+	brew bundle install --file=brewfiles/extension/Brewfile
 gui:
 	brew bundle install --file=brewfiles/gui/Brewfile
 cli:
