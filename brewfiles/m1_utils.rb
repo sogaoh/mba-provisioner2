@@ -1,3 +1,5 @@
+# refs https://zenn.dev/mactkg/articles/71d09e350315f9
+
 def is_m1?
   !RUBY_PLATFORM.index("arm64e").nil?
 end

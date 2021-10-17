@@ -4,6 +4,10 @@ help:
 	cat Makefile
 
 
+basic:
+	cd brewfiles/basic
+	brew bundle
+
 dot:
 	ansible-playbook playbooks/dotfiles.yml -i "localhost," --tags=dotfiles -K
 prezto:
