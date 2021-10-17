@@ -4,8 +4,10 @@ help:
 	cat Makefile
 
 
-basic:
-	brew bundle install --file=brewfiles/basic/Brewfile
+gui:
+	brew bundle install --file=brewfiles/gui/Brewfile
+cli:
+	brew bundle install --file=brewfiles/cli/Brewfile
 
 dot:
 	ansible-playbook playbooks/dotfiles.yml -i "localhost," --tags=dotfiles -K
