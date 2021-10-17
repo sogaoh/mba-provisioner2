@@ -25,25 +25,26 @@
   shell: mackerel-agent init -apikey={{ mackerel_agent_apikey }} -conf /opt/homebrew/etc/mackerel-agent.conf
   ignore_errors: yes
 
-- name: Copy mac_battery.sh to  /opt/homebrew/var/mackerel-agent/ directory
-  copy:
-    src: roles/mackerel/templates/mac_battery.sh.j2
-    dest: /opt/homebrew/var/mackerel-agent/mac_battery.sh
-    owner: sogaoh
-    group: admin
-    mode: +rx
-
-- name: Append to mackerel-agent.conf
-  blockinfile:
-    dest: /opt/homebrew/etc/mackerel-agent.conf
-    backup: yes
-    block: |
-      {{ item.content }}
-    marker: ""
-  with_items:
-    - "{{ metrics_battery_remain }}"
-  changed_when: true
-  notify: "Restart mackerel-agent (Darwin)"
-
 - name: Start mackerel-agent (Darwin)
   command: brew services start mackerelio/mackerel-agent/mackerel-agent
+
+#- name: Copy mac_battery.sh to  /opt/homebrew/var/mackerel-agent/ directory
+#  copy:
+#    src: roles/mackerel/templates/mac_battery.sh.j2
+#    dest: /opt/homebrew/var/mackerel-agent/mac_battery.sh
+#    owner: sogaoh
+#    group: admin
+#    mode: +rx
+#
+#- name: Append to mackerel-agent.conf
+#  blockinfile:
+#    dest: /opt/homebrew/etc/mackerel-agent.conf
+#    backup: yes
+#    block: |
+#      {{ item.content }}
+#    marker: ""
+#  with_items:
+#    - "{{ metrics_battery_remain }}"
+#  changed_when: true
+#  notify: "Restart mackerel-agent (Darwin)"
+
