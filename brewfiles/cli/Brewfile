@@ -15,15 +15,17 @@ brew "vim"      # with-lua [default]
 
 brew "ghq"
 brew "peco"
-brew "muesli/tap/duf"
+tap "muesli/tap"
+brew "duf"                  # muesli/tap/duf
 brew "ctop"
 brew "terraformer"
 brew "awscli"
 brew "azure-cli"
 brew "mysql"
 brew "postgresql"
-brew "noborus/tap/ov"
-brew "noborus/tap/trdsql"
+tap "noborus/tap"
+brew "ov"                   # noborus/tap/ov
+brew "trdsql"               # noborus/tap/trdsql
 brew "yarn"
 brew "graphviz"
 brew "direnv"
@@ -38,19 +40,27 @@ brew "jsonnet"
 brew "pv"
 brew "mas"
 brew "pandoc"
-brew "mkcert"    # for projector
-brew "nss"       # for projector
+brew "mkcert"    # for JetBrains projector
+brew "nss"       # for JetBrains projector
 brew "circleci"
 brew "tfenv"
 brew "tflint"
 brew "tfsec"
-# brew "kayac/tap/ecspresso"
-# brew "fujiwara/tap/lambroll"
-# brew "Songmu/tap/ecschedule"
-# brew "knqyf263/utern/utern"
-# brew "hashicorp/tap/waypoint"
-# brew "aquasecurity/trivy/trivy"
-# brew "aws/tap/copilot-cli"
-# brew "uzimaru0000/tap/tv"
-#
-# brew "mkr"       # after brew tap mackerelio/mackerel-agent
+tap "kayac/tap"
+brew "ecspresso"            # kayac/tap/ecspresso
+tap "fujiwara/tap"
+brew "lambroll"             # fujiwara/tap/lambroll
+tap "Songmu/tap"
+brew "ecschedule"           # Songmu/tap/ecschedule
+tap "knqyf263/utern"
+brew "utern"                # knqyf263/utern/utern
+tap "hashicorp/tap"
+brew "waypoint"             # hashicorp/tap/waypoint
+tap "aquasecurity/trivy"
+brew "trivy"                # aquasecurity/trivy/trivy
+tap "aws/tap"
+brew "copilot-cli"          # aws/tap/copilot-cli
+tap "uzimaru0000/tap"
+brew "tv"                   # uzimaru0000/tap/tv
+tap "mackerelio/mackerel-agent"
+brew "mkr"                  # mackerelio/mackerel-agent/mkr
