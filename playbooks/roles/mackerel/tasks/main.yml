@@ -46,4 +46,4 @@
   notify: "Restart mackerel-agent (Darwin)"
 
 - name: Start mackerel-agent (Darwin)
-  command: /opt/homebrew/bin/brew services start mackerel-agent
+  command: /opt/homebrew/bin/brew services start mackerel-agent --file /opt/homebrew/opt/mackerel-agent/homebrew.mxcl.mackerel-agent.plist
