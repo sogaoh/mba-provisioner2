@@ -1,3 +1,4 @@
+brewfiles/*/Brewfile.lock.json
 playbooks/*.retry
 playbooks/brew_info
 playbooks/cask_info
