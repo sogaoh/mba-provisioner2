@@ -76,12 +76,12 @@ zle -N peco-docker-images
 bindkey '^x^i' peco-docker-images
 
 
-# direnv
-eval "$(direnv hook zsh)"
+# # direnv
+# eval "$(direnv hook zsh)"
 
 
-# anyenv
-eval "$(anyenv init -)"
+# # anyenv
+# eval "$(anyenv init -)"
 
 
 # # awsp
