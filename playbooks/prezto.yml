@@ -1,0 +1,11 @@
+---
+- hosts: localhost
+  connection: local
+  gather_facts: no
+  #environment:
+  #  HOMEBREW_CASK_OPTS: "--appdir=/Applications"
+  vars:
+    ansible_python_interpreter: "/usr/bin/python3"
+
+  roles:
+    - { role: prezto, tags: prezto }
