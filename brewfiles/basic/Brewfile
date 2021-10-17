@@ -10,3 +10,4 @@ brew "tree"
 brew "nkf"
 brew "jq"
 brew "pigz"
+brew "vim"      # with-lua [default]
