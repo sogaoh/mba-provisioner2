@@ -14,6 +14,13 @@ fi
 export CLICOLOR=1
 
 
+# zsh-completion 
+if type brew &>/dev/null; then
+  FPATH=$(brew --prefix)/share/zsh-completions:$FPATH
+  autoload -Uz compinit
+  compinit
+fi
+
 # history
 HISTFILE=$HOME/.zsh-history
 HISTSIZE=100000
