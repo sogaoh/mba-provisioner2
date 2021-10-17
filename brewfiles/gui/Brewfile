@@ -1,0 +1,27 @@
+require './brewfiles/m1_utils.rb'
+
+cask_args appdir: "/Applications"
+
+cask "iterm2"
+cask "alfred"
+cask "docker"
+cask "google-chrome"
+cask "firefox"
+cask "postman"
+cask "visual-studio-code"
+cask "intellij-idea"
+#cask "jetbrains-toolbox"
+cask "slack"
+cask "discord"
+cask "zoom"
+cask "gimp"
+#cask "eset-cyber-security-pro"  # Unsupported..
+cask "bitwarden"
+cask "adobe-acrobat-reader"
+cask_skip_m1 "google-cloud-sdk"
+cask "skitch"
+cask "amazon-workspaces"
+cask "microsoft-edge"
+cask "transmit"
+cask "nosql-workbench"
+
