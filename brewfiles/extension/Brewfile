@@ -3,3 +3,4 @@ require './brewfiles/m1_utils.rb'
 mas "Bitwarden", id: 1352778147
 mas "LINE", id: 539883307
 mas "Octotree", id: 1457450145
+mas "Wappalyzer", id: 1520333300
