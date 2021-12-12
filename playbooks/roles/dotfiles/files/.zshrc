@@ -89,8 +89,8 @@ source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/path.zsh
 source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completion.zsh.inc"
 
 
-# # direnv
-# eval "$(direnv hook zsh)"
+# direnv
+eval "$(direnv hook zsh)"
 
 
 # # anyenv
