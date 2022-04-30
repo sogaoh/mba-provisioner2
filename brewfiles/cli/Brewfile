@@ -64,3 +64,7 @@ tap "uzimaru0000/tap"
 brew "tv"                   # uzimaru0000/tap/tv
 tap "mackerelio/mackerel-agent"
 brew "mkr"                  # mackerelio/mackerel-agent/mkr
+tap "hashicorp/tap"
+brew "vault"                # hashicorp/tap/vault
+brew "dasel"
+#brew "chef/chef/inspec"    # bash; curl https://omnitruck.chef.io/install.sh | sudo bash -s -- -P inspec
