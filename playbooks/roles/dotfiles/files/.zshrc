@@ -93,8 +93,8 @@ source "/opt/homebrew/Caskroom/google-cloud-sdk/latest/google-cloud-sdk/completi
 eval "$(direnv hook zsh)"
 
 
-# # anyenv
-# eval "$(anyenv init -)"
+# anyenv
+eval "$(anyenv init -)"
 
 
 # # awsp

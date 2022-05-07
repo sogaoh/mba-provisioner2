@@ -24,7 +24,7 @@ since [my previous "mba-provisioner"](https://github.com/sogaoh/mba-provisioner)
   brew install ansible
   ```
 
-- Install Resetta (refs https://support.apple.com/HT211861)
+- Install Rosetta (refs https://support.apple.com/HT211861)
 
 
 ### Prepare
