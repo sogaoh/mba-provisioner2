@@ -23,4 +23,4 @@ cask "amazon-workspaces"
 cask "microsoft-edge"
 cask "transmit"
 cask "nosql-workbench"
-
+cask "arctype"
