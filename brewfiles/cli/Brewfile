@@ -72,3 +72,6 @@ brew "n"
 brew "httpie"
 brew "saml2aws"
 brew "act"
+brew "gh"
+tap "olets/tap"
+brew "zsh-abbr"             # olets/tap/zsh-abbr

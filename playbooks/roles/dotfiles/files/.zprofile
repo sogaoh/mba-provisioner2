@@ -66,3 +66,5 @@ fi
 # M1 Mac Homebrew
 eval "$(/opt/homebrew/bin/brew shellenv)"
 
+# Added by Jetbrains Toolbox App
+export PATH="$PATH:/Users/sogaoh/Library/Application Support/JetBrains/Toolbox/scripts"

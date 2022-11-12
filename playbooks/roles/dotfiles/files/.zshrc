@@ -107,3 +107,14 @@ eval "$(anyenv init -)"
 #   fi
 #   export AWS_DEFAULT_PROFILE=$AWS_PROFILE
 # }
+
+
+# bun completions
+[ -s "/Users/sogaoh/.bun/_bun" ] && source "/Users/sogaoh/.bun/_bun"
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+
+# zsh-abbr
+source "/opt/homebrew/share/zsh-abbr/zsh-abbr.zsh"
