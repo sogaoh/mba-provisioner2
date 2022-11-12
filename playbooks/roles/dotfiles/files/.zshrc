@@ -72,6 +72,7 @@ zle -N peco-cdr
 bindkey '^F' peco-cdr
 #bindkey '^D' peco-cdr
 
+# refs [Docker イメージの断捨離を圧倒的に効率化する](https://qiita.com/hoto17296/items/791936ae4e809feec7cf)
 function peco-docker-images() {
   local images="$(docker images | tail +2 | sort | peco --prompt 'DOCKER IMAGES>' | awk '{print $3}' ORS=' ')"
   [ -z "$images" ] && return
