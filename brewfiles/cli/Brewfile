@@ -50,6 +50,7 @@ tap "kayac/tap"
 brew "ecspresso"            # kayac/tap/ecspresso
 tap "fujiwara/tap"
 brew "lambroll"             # fujiwara/tap/lambroll
+brew "ecsta"                # fujiwara/tap/ecsta
 tap "Songmu/tap"
 brew "ecschedule"           # Songmu/tap/ecschedule
 tap "knqyf263/utern"
