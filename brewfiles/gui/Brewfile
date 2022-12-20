@@ -3,7 +3,9 @@ require './brewfiles/m1_utils.rb'
 cask_args appdir: "/Applications"
 
 cask "iterm2"
-cask "alfred"
+cask "warp"
+#cask "alfred"
+cask "raycast"
 cask "docker"
 cask "google-chrome"
 cask "firefox"
@@ -17,7 +19,7 @@ cask "zoom"
 cask "gimp"
 #cask "eset-cyber-security-pro"  # Unsupported..
 cask "bitwarden"
-cask "adobe-acrobat-reader"
+#cask "adobe-acrobat-reader"     # Needs Rosseta2
 cask "skitch"
 cask "amazon-workspaces"
 cask "microsoft-edge"
