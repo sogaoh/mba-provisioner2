@@ -10,3 +10,4 @@ dotfiles_name:
   - .my.cnf
   - .psqlrc
   - .actrc
+  - .zsh.d/abbr.zsh

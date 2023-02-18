@@ -119,3 +119,32 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # zsh-abbr
 source "/opt/homebrew/share/zsh-abbr/zsh-abbr.zsh"
+
+
+# unalias
+#unalias mysql
+
+
+# volta
+export VOLTA_HOME="$HOME/.volta"
+export PATH="$VOLTA_HOME/bin:$PATH"
+
+
+#################################################################################
+# https://zenn.dev/taichifukumoto/articles/how-to-use-multiple-github-accounts
+#################################################################################
+#export PROMPT="
+#%F{green}[%~]%f < `git config user.name` (`git config user.email`) >
+#=> %# "
+#RPROMPT='%*'
+
+
+ZSHHOME="${HOME}/.zsh.d"
+
+if [ -d $ZSHHOME -a -r $ZSHHOME -a \
+     -x $ZSHHOME ]; then
+    for i in $ZSHHOME/*; do
+        [[ ${i##*/} = *.zsh ]] &&
+            [ \( -f $i -o -h $i \) -a -r $i ] && source $i
+    done
+fi
