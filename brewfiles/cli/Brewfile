@@ -77,6 +77,6 @@ brew "gh"
 tap "olets/tap"
 brew "zsh-abbr"             # olets/tap/zsh-abbr
 tap "cloudflare/cloudflare"
-cask "cloudflare/cloudflare/cf-terraforming"
+cask "cloudflare/cloudflare/cf-terraforming"    # needs GRANT security & privacy
 brew "pipx"
 brew "volta"

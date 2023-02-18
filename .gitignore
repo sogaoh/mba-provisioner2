@@ -2,4 +2,5 @@ brewfiles/*/Brewfile.lock.json
 playbooks/*.retry
 playbooks/brew_info
 playbooks/cask_info
+playbooks/roles/dotfiles/files/.zsh.d/functions.zsh
 variables.yaml

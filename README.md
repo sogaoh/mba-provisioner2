@@ -39,3 +39,35 @@ since [my previous "mba-provisioner"](https://github.com/sogaoh/mba-provisioner)
   mackerel_agent_apikey: "<your_key>"
   ```
 
+
+### Run Setup
+
+```bash
+cd /path/to/mba-provisioner2
+```
+
+```bash
+make prezto   # probably just for me
+```
+
+```bash
+make dot      # probably just for me
+```
+
+```bash
+make cli
+```
+
+```bash
+make gui
+```
+
+#### optional
+
+```bash
+make ma   # install mackerel-agent
+```
+
+```bash
+make ext  # via AppStore. 手動で入れても良い（大した数じゃないので）
+```
