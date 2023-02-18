@@ -10,5 +10,10 @@
     "files.trimFinalNewlines": true, // 保存時にファイルの最後に存在する空行を削除する
     //"files.trimTrailingWhitespace": true, // 保存時に行の終端に存在する空白文字を削除する
     "cSpell.words": [
+      "actrc",
+      "dotfiles",
+      "psqlrc",
+      "vimrc",
+      "zpreztorc"
     ]
 }
