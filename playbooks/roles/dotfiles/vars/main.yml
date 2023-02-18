@@ -9,3 +9,4 @@ dotfiles_name:
   - .vimrc
   - .my.cnf
   - .psqlrc
+  - .actrc
