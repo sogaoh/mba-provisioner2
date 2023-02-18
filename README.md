@@ -1,11 +1,12 @@
 # mba-provisioner2
-My PC (M1 MacBook Air) provisioner  
+My PC (M1 Mac mini) provisioner  
 since [my previous "mba-provisioner"](https://github.com/sogaoh/mba-provisioner)
 
 ## Prerequisite
 
 ### OS
 - macOS Big Sur ~  (zsh)
+  - Mac mini (M1,2020)
   - MacBook Air (M1,2020)
 
 ### Security
@@ -38,9 +39,3 @@ since [my previous "mba-provisioner"](https://github.com/sogaoh/mba-provisioner)
   mackerel_agent_apikey: "<your_key>"
   ```
 
-- Create `/etc/hosts` symbolic link [optional]
-  ```zsh
-  sudo mv /private/etc/hosts /private/etc/hosts.org
-  touch ~/.config/hosts
-  sudo ln -snf ~/.config/hosts /private/etc/hosts
-  ``` 
