@@ -80,4 +80,5 @@ tap "cloudflare/cloudflare"
 cask "cloudflare/cloudflare/cf-terraforming"    # needs GRANT security & privacy
 brew "pipx"
 brew "volta"
+brew "pnpm"
 brew "sops"
