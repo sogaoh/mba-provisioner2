@@ -6,7 +6,7 @@ cask "iterm2"
 cask "warp"
 #cask "alfred"
 cask "raycast"
-cask "docker"
+#cask "docker"        # 'Docker Desktop for Mac with Apple silicon' from https://docs.docker.com/desktop/install/mac-install/
 cask "google-chrome"
 cask "firefox"
 #cask "postman"
