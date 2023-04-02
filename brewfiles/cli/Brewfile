@@ -51,6 +51,7 @@ brew "ecspresso"            # kayac/tap/ecspresso
 tap "fujiwara/tap"
 brew "lambroll"             # fujiwara/tap/lambroll
 brew "ecsta"                # fujiwara/tap/ecsta
+brew "tfstate-lookup"       # fujiwara/tap/tfstate-lookup
 tap "Songmu/tap"
 brew "ecschedule"           # Songmu/tap/ecschedule
 tap "knqyf263/utern"
