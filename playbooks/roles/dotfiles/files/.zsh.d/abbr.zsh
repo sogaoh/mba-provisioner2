@@ -22,3 +22,6 @@ alias awsume=". awsume"
 abbr -S asuc='awsume -c'
 abbr -S asuo='awsume -o ~/.aws/credentials'
 abbr -S asso='aws sso login --profile'
+
+# exec
+abbr -S esl='exec $SHELL -l'
