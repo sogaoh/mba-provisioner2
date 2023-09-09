@@ -16,7 +16,7 @@ cask "intellij-idea"
 cask "slack"
 cask "discord"
 cask "zoom"
-cask "gimp"
+#cask "gimp"    # 勝手に消されるのでコメントアウト
 #cask "eset-cyber-security-pro"  # Unsupported..
 cask "bitwarden"
 #cask "adobe-acrobat-reader"     # Needs Rosseta2
@@ -31,3 +31,4 @@ cask "dbeaver-community"
 cask "obsidian"
 #brew "orbstack"  #保留
 cask "arc"
+cask "cyberduck"

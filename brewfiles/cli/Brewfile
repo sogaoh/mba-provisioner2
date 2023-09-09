@@ -22,7 +22,7 @@ brew "awscli"
 brew "azure-cli"
 cask "google-cloud-sdk"
 brew "mysql"
-brew "postgresql"
+#brew "postgresql"          # upgrade は remove -> @XX をバージョン指定
 tap "noborus/tap"
 brew "ov"                   # noborus/tap/ov
 brew "trdsql"               # noborus/tap/trdsql
