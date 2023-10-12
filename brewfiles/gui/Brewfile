@@ -29,6 +29,6 @@ cask "microsoft-edge"
 #cask "rambox"
 cask "dbeaver-community"
 cask "obsidian"
-#brew "orbstack"  #保留
+cask "orbstack"
 cask "arc"
 cask "cyberduck"
